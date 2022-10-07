@@ -7,9 +7,17 @@
     box-sizing: border-box;
 }
 
-body {
+.general-font-options {
     font-family: "Gemunu Libre", monospace;
     font-size: 19px;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+.section-indent {
+    padding-bottom: 10px;
 }
 
 .logo {
@@ -17,17 +25,12 @@ body {
     margin-left: 50px;
 }
 
-main {
+.cv-background {
     margin: 0px 0px 0px 50px;
-    padding-left: 30px;
-    padding-right: 20px;
+    padding: 30px 20px 0px 30px;
     width: 900px;
     border: solid grey;
     background-image: url("./pictures/background_2.jpg");
-}
-
-.cv-photo {
-    margin-top: 30px;
 }
 
 .cv-head {
@@ -36,14 +39,13 @@ main {
     left: 300px;
 }
 
-a {
+.rm-underline {
     text-decoration: none;
-
 }
 
 #slogan {
     position: absolute;
-    top: 416px;
+    top: 430px;
     left: 300px;
     font-size: 25px;
     border-bottom: solid;
@@ -59,14 +61,6 @@ a {
 .cv-info {
     padding: 0px 10px 10px 50px;
     text-align: justify;
-}
-
-.font-bold {
-    font-weight: bold;
-}
-
-.section-indent {
-    padding-bottom: 10px;
 }
 
 .motto-bottom {
