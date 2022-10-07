@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Gemunu Libre;
+    src: url("./fonts/Gemunu-Libre/GemunuLibre-Light.ttf") format("TrueType");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gemunu Libre", monospace;
+    font-size: 19px;
+}
+
+.logo {
+    width: 900px;
+    margin-left: 50px;
+}
+
+main {
+    margin: 0px 0px 0px 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 900px;
+    border: solid grey;
+    background-image: url("./pictures/background_2.jpg");
+}
+
+.cv-photo {
+    margin-top: 30px;
+}
+
+.cv-head {
+    position: absolute;
+    top: 242px;
+    left: 300px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+#slogan {
+    position: absolute;
+    top: 416px;
+    left: 300px;
+    font-size: 25px;
+    border-bottom: solid;
+    width: 635px;
+}
+
+.heading {
+    background-color: black;
+    color: azure;
+    padding-left: 5px;
+}
+
+.cv-info {
+    padding: 0px 10px 10px 50px;
+    text-align: justify;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.section-indent {
+    padding-bottom: 10px;
+}
+
+.motto-bottom {
+    margin: 2px 0px 0px 50px;
+    text-align: center;
+    line-height: 60px;
+    width: 900px;
+    height: 60px;
+    background-color: black;
+    color: azure;
+}
+
