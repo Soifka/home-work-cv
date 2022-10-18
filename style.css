@@ -43,7 +43,7 @@
     text-decoration: none;
 }
 
-#slogan {
+.slogan {
     position: absolute;
     top: 430px;
     left: 300px;
@@ -63,7 +63,7 @@
     text-align: justify;
 }
 
-#motto-bottom {
+.motto-bottom {
     margin: 2px 0px 0px 50px;
     text-align: center;
     line-height: 60px;
